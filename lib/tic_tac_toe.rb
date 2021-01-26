@@ -41,6 +41,15 @@ class TicTacToe
     end
   end
 
+  def valid_move?(position)
+    if position_taken?(position)
+      false
+    else
+      if position > 0 && position < 10
+      
+    end
+  end
+
   # def current_player
   #   turn_count % 2 == 0 ? "X" : "O"
   # end
