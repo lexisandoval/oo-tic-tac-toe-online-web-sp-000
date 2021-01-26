@@ -120,7 +120,4 @@ class TicTacToe
       end
     end
   end
-
-  yo = TicTacToe.new
-  yo.play
 end
