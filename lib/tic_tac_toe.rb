@@ -87,6 +87,10 @@ class TicTacToe
     !@board.include?(" ")
   end
 
+  def draw?
+    !won? && full?
+  end
+
 
 
 end
