@@ -121,4 +121,8 @@ class TicTacToe
     end
   end
 
+  yo = TicTacToe.new
+  yo.play
 end
+
+
