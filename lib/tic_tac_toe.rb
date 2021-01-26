@@ -46,8 +46,9 @@ class TicTacToe
       false
     else
       if position > 0 && position < 10
-
+        true
     end
+    false
   end
 
   # def current_player
