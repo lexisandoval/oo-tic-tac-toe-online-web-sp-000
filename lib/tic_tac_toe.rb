@@ -46,7 +46,7 @@ class TicTacToe
       false
     else
       if position > 0 && position < 10
-      
+
     end
   end
 
