@@ -29,6 +29,11 @@ class TicTacToe
     index = input - 1
   end
 
+  def move(index, token = "X")
+    spot = input_to_index(index)
+    @board[spot] = token
+  end
+
   # def current_player
   #   turn_count % 2 == 0 ? "X" : "O"
   # end
